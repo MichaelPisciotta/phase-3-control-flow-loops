@@ -1,11 +1,11 @@
 
-def happy_new_year(counter)
+def happy_new_year
   counter = 10
   until counter == 0
-    puts "${counter}"
+    puts "#{counter}"
     counter -= 1
   end
-  "HAPPY NEW YEAR!"
+  puts "Happy New Year!"
 end 
 
 
